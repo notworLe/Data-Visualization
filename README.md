@@ -32,15 +32,39 @@ Data-Visualization/
 └── task/0001_task.md                      # Đặc tả yêu cầu & dàn ý dự án
 ```
 
+## Cách mở Dashboard HTML tương tác (Demo khi thuyết trình)
+
+Dự án có 2 file HTML tương tác:
+- **Dashboard tổng hợp (Câu 10 — Slide 13)**: `outputs/dashboard/q10_dashboard.html`
+- **Bản đồ Choropleth theo quốc gia (Câu 5 — Slide 8)**: `outputs/dashboard/q05_country_map.html`
+
+**3 cách mở nhanh trên Windows:**
+1. **File Explorer (nhanh nhất)**: Vào thư mục `outputs/dashboard/`, nhấp đúp `q10_dashboard.html` (hoặc chuột phải → *Open with* → Chrome / Edge).
+2. **PowerShell** (chạy từ thư mục gốc dự án):
+   ```powershell
+   start outputs/dashboard/q10_dashboard.html
+   start outputs/dashboard/q05_country_map.html
+   ```
+3. **VS Code**: Chuột phải file HTML ở cây thư mục → *Reveal in File Explorer* → nhấp đúp mở bằng trình duyệt *(hoặc dùng extension Live Preview / Open in Browser)*.
+
+**Mẹo demo trước lớp:**
+- Nhấn `F11` trên Chrome/Edge để phóng toàn màn hình.
+- Thao tác trực tiếp: chọn năm ở **dropdown góc phải** biểu đồ xu hướng, kéo **Range Slider**, và **di chuột (hover)** lên bản đồ thế giới / các cột để hiện số liệu chi tiết.
+- *Lưu ý*: File HTML nạp `plotly.js` qua CDN nên máy trình chiếu cần có kết nối Internet (nếu cần chạy offline hoàn toàn, đổi `include_plotlyjs="cdn"` thành `include_plotlyjs=True` trong `src/03_dashboard_q10.py` rồi chạy lại).
+
+## Cách xem Notebook trình chiếu & Docs thuyết trình
+
+- Mở `notebooks/Amazon_Sales_Presentation.ipynb` bằng VS Code hoặc JupyterLab (15 slides đã chạy sẵn bảng số liệu, 10 biểu đồ PNG và biểu đồ Plotly tương tác).
+- Đọc lời thoại 11 phút 30 giây & 12 câu Q&A phản biện tại `docs/thuyet_trinh_va_qa.md`, nội dung chi tiết từng slide tại `docs/slide_content.md`.
+
 ## Cách chạy lại toàn bộ mã nguồn
 
 ```bash
-pip install pandas numpy matplotlib seaborn scipy plotly
+pip install pandas numpy matplotlib seaborn scipy plotly nbformat nbclient ipykernel
 python src/01_clean_and_eda.py
 python src/02_charts_q1_to_q9.py
 python src/03_dashboard_q10.py
+python src/build_notebook.py
 ```
-
-Sau khi chạy xong, mở trực tiếp `outputs/dashboard/q10_dashboard.html` trên trình duyệt (Chrome/Edge) để trải nghiệm Dashboard tương tác.
 
 > **Nguồn & Lưu ý**: Dữ liệu từ Kaggle (`rohiteng/amazon-sales-dataset`, cập nhật 11/2025). Đây là dữ liệu tổng hợp (*synthetic*), kết quả chỉ phục vụ mục đích học thuật và không phản ánh hoạt động thực tế của Amazon.
