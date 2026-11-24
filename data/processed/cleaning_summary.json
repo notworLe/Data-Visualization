@@ -1,0 +1,137 @@
+{
+  "source": "Kaggle — rohiteng/amazon-sales-dataset (Amazon Sales Dataset - synthetic)",
+  "raw_shape": {
+    "rows": 100000,
+    "cols": 20
+  },
+  "clean_shape": {
+    "rows": 100000,
+    "cols": 26
+  },
+  "date_range": {
+    "min": "2020-01-01",
+    "max": "2024-12-29",
+    "invalid_dates": 0
+  },
+  "missing_values": {
+    "total": 0,
+    "by_column": {}
+  },
+  "duplicates": {
+    "duplicate_rows": 0,
+    "duplicate_order_ids": 0
+  },
+  "whitespace_trimmed_cells": 0,
+  "formula_check": {
+    "formula": "TotalAmount = Quantity * UnitPrice * (1 - Discount) + Tax + ShippingCost",
+    "exact_match_pct": 99.534,
+    "max_abs_diff": 0.01
+  },
+  "iqr_outliers": {
+    "Quantity": {
+      "q1": 2.0,
+      "median": 3.0,
+      "q3": 4.0,
+      "iqr": 2.0,
+      "lower_bound": -1.0,
+      "upper_bound": 7.0,
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "decision": "Giữ nguyên (giá trị hợp lệ từ đơn hàng giá/số lượng cao, không phải lỗi nhập liệu)"
+    },
+    "UnitPrice": {
+      "q1": 154.19,
+      "median": 303.07,
+      "q3": 451.5,
+      "iqr": 297.31,
+      "lower_bound": -291.775,
+      "upper_bound": 897.465,
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "decision": "Giữ nguyên (giá trị hợp lệ từ đơn hàng giá/số lượng cao, không phải lỗi nhập liệu)"
+    },
+    "Discount": {
+      "q1": 0.0,
+      "median": 0.05,
+      "q3": 0.1,
+      "iqr": 0.1,
+      "lower_bound": -0.15,
+      "upper_bound": 0.25,
+      "outlier_count": 1989,
+      "outlier_pct": 1.99,
+      "decision": "Giữ nguyên (giá trị hợp lệ từ đơn hàng giá/số lượng cao, không phải lỗi nhập liệu)"
+    },
+    "Tax": {
+      "q1": 15.92,
+      "median": 45.25,
+      "q3": 96.06,
+      "iqr": 80.14,
+      "lower_bound": -104.29,
+      "upper_bound": 216.27,
+      "outlier_count": 5109,
+      "outlier_pct": 5.11,
+      "decision": "Giữ nguyên (giá trị hợp lệ từ đơn hàng giá/số lượng cao, không phải lỗi nhập liệu)"
+    },
+    "ShippingCost": {
+      "q1": 3.68,
+      "median": 7.3,
+      "q3": 11.15,
+      "iqr": 7.47,
+      "lower_bound": -7.525,
+      "upper_bound": 22.355,
+      "outlier_count": 0,
+      "outlier_pct": 0.0,
+      "decision": "Giữ nguyên (giá trị hợp lệ từ đơn hàng giá/số lượng cao, không phải lỗi nhập liệu)"
+    },
+    "TotalAmount": {
+      "q1": 340.89,
+      "median": 714.315,
+      "q3": 1349.765,
+      "iqr": 1008.875,
+      "lower_bound": -1172.4225,
+      "upper_bound": 2863.0775,
+      "outlier_count": 1360,
+      "outlier_pct": 1.36,
+      "decision": "Giữ nguyên (giá trị hợp lệ từ đơn hàng giá/số lượng cao, không phải lỗi nhập liệu)"
+    }
+  },
+  "synthetic_notes": {
+    "order_status_count": 5,
+    "order_statuses": [
+      "Cancelled",
+      "Delivered",
+      "Pending",
+      "Returned",
+      "Shipped"
+    ],
+    "category_count": 6,
+    "categories": [
+      "Books",
+      "Clothing",
+      "Electronics",
+      "Home & Kitchen",
+      "Sports & Outdoors",
+      "Toys & Games"
+    ],
+    "brand_count": 10,
+    "product_count": 50,
+    "country_count": 5,
+    "countries": [
+      "Australia",
+      "Canada",
+      "India",
+      "United Kingdom",
+      "United States"
+    ],
+    "city_state_vs_country_note": "Cả 5 quốc gia đều xuất hiện đủ 13 mã bang Mỹ (TX, CA, DC...); vì vậy phân tích địa lý dùng cột Country thay vì City/State.",
+    "country_unique_states": {
+      "Australia": 13,
+      "Canada": 13,
+      "India": 13,
+      "United Kingdom": 13,
+      "United States": 13
+    },
+    "avg_categories_per_product": 6,
+    "product_category_note": "Trong dữ liệu tổng hợp, ProductName được gán độc lập với Category (một sản phẩm xuất hiện ở nhiều Category khác nhau)."
+  }
+}

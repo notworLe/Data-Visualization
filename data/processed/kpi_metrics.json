@@ -1,0 +1,1044 @@
+{
+  "q1": {
+    "total_orders": 100000,
+    "unique_customers": 43233,
+    "unique_sellers": 1999,
+    "gross_revenue": 91825647.92,
+    "delivered_revenue": 68372677.1,
+    "delivered_revenue_pct": 74.46,
+    "lost_revenue_cancel_return": 5631784.85,
+    "lost_revenue_pct": 6.13,
+    "cancel_revenue": 2851122.39,
+    "return_revenue": 2780662.46,
+    "total_shipping_cost": 740666.01,
+    "shipping_share_of_rev_pct": 0.81,
+    "avg_order_value": 918.26,
+    "median_order_value": 714.32,
+    "avg_shipping_cost": 7.41,
+    "status_breakdown": [
+      {
+        "OrderStatus": "Delivered",
+        "orders": 74628,
+        "revenue": 68372677.1,
+        "avg_order": 916.18,
+        "order_pct": 74.63,
+        "rev_pct": 74.46
+      },
+      {
+        "OrderStatus": "Shipped",
+        "orders": 15192,
+        "revenue": 14083628.99,
+        "avg_order": 927.04,
+        "order_pct": 15.19,
+        "rev_pct": 15.34
+      },
+      {
+        "OrderStatus": "Pending",
+        "orders": 4103,
+        "revenue": 3737556.98,
+        "avg_order": 910.93,
+        "order_pct": 4.1,
+        "rev_pct": 4.07
+      },
+      {
+        "OrderStatus": "Returned",
+        "orders": 3049,
+        "revenue": 2780662.46,
+        "avg_order": 911.99,
+        "order_pct": 3.05,
+        "rev_pct": 3.03
+      },
+      {
+        "OrderStatus": "Cancelled",
+        "orders": 3028,
+        "revenue": 2851122.39,
+        "avg_order": 941.59,
+        "order_pct": 3.03,
+        "rev_pct": 3.1
+      }
+    ]
+  },
+  "q2": {
+    "yearly": [
+      {
+        "Year": 2020,
+        "orders": 20066,
+        "revenue": 18529864.02,
+        "avg_order": 923.45,
+        "rev_yoy_pct": NaN
+      },
+      {
+        "Year": 2021,
+        "orders": 19890,
+        "revenue": 18248574.81,
+        "avg_order": 917.47,
+        "rev_yoy_pct": -1.52
+      },
+      {
+        "Year": 2022,
+        "orders": 20078,
+        "revenue": 18367248.41,
+        "avg_order": 914.79,
+        "rev_yoy_pct": 0.65
+      },
+      {
+        "Year": 2023,
+        "orders": 20096,
+        "revenue": 18513912.19,
+        "avg_order": 921.27,
+        "rev_yoy_pct": 0.8
+      },
+      {
+        "Year": 2024,
+        "orders": 19870,
+        "revenue": 18166048.49,
+        "avg_order": 914.25,
+        "rev_yoy_pct": -1.88
+      }
+    ],
+    "best_year_rev": {
+      "Year": 2020.0,
+      "orders": 20066.0,
+      "revenue": 18529864.02,
+      "avg_order": 923.45,
+      "rev_yoy_pct": NaN
+    },
+    "worst_year_rev": {
+      "Year": 2024.0,
+      "orders": 19870.0,
+      "revenue": 18166048.49,
+      "avg_order": 914.25,
+      "rev_yoy_pct": -1.88
+    },
+    "best_month_rev": {
+      "YearMonth": "2024-05",
+      "orders": 1753,
+      "revenue": 1642609.94
+    },
+    "worst_month_rev": {
+      "YearMonth": "2020-02",
+      "orders": 1490,
+      "revenue": 1339388.21
+    },
+    "best_month_orders": {
+      "YearMonth": "2020-08",
+      "orders": 1783,
+      "revenue": 1640874.93
+    },
+    "worst_month_orders": {
+      "YearMonth": "2020-02",
+      "orders": 1490,
+      "revenue": 1339388.21
+    },
+    "monthly_seasonality": [
+      {
+        "Month": 1,
+        "orders": 8638,
+        "revenue": 7883801.27,
+        "avg_orders_per_year": 1727.6,
+        "avg_rev_per_year": 1576760.25
+      },
+      {
+        "Month": 2,
+        "orders": 7618,
+        "revenue": 6931724.49,
+        "avg_orders_per_year": 1523.6,
+        "avg_rev_per_year": 1386344.9
+      },
+      {
+        "Month": 3,
+        "orders": 8438,
+        "revenue": 7766527.73,
+        "avg_orders_per_year": 1687.6,
+        "avg_rev_per_year": 1553305.55
+      },
+      {
+        "Month": 4,
+        "orders": 8210,
+        "revenue": 7646203.22,
+        "avg_orders_per_year": 1642.0,
+        "avg_rev_per_year": 1529240.64
+      },
+      {
+        "Month": 5,
+        "orders": 8559,
+        "revenue": 7864283.27,
+        "avg_orders_per_year": 1711.8,
+        "avg_rev_per_year": 1572856.65
+      },
+      {
+        "Month": 6,
+        "orders": 8312,
+        "revenue": 7654636.75,
+        "avg_orders_per_year": 1662.4,
+        "avg_rev_per_year": 1530927.35
+      },
+      {
+        "Month": 7,
+        "orders": 8437,
+        "revenue": 7737925.51,
+        "avg_orders_per_year": 1687.4,
+        "avg_rev_per_year": 1547585.1
+      },
+      {
+        "Month": 8,
+        "orders": 8668,
+        "revenue": 7890598.37,
+        "avg_orders_per_year": 1733.6,
+        "avg_rev_per_year": 1578119.67
+      },
+      {
+        "Month": 9,
+        "orders": 8276,
+        "revenue": 7558970.85,
+        "avg_orders_per_year": 1655.2,
+        "avg_rev_per_year": 1511794.17
+      },
+      {
+        "Month": 10,
+        "orders": 8254,
+        "revenue": 7654243.32,
+        "avg_orders_per_year": 1650.8,
+        "avg_rev_per_year": 1530848.66
+      },
+      {
+        "Month": 11,
+        "orders": 8148,
+        "revenue": 7495754.13,
+        "avg_orders_per_year": 1629.6,
+        "avg_rev_per_year": 1499150.83
+      },
+      {
+        "Month": 12,
+        "orders": 8442,
+        "revenue": 7740979.01,
+        "avg_orders_per_year": 1688.4,
+        "avg_rev_per_year": 1548195.8
+      }
+    ],
+    "monthly_rev_cv_pct": 4.21
+  },
+  "q3": {
+    "status_summary": [
+      {
+        "OrderStatus": "Delivered",
+        "orders": 74628,
+        "revenue": 68372677.1,
+        "avg_order": 916.18,
+        "order_pct": 74.63,
+        "rev_pct": 74.46
+      },
+      {
+        "OrderStatus": "Shipped",
+        "orders": 15192,
+        "revenue": 14083628.99,
+        "avg_order": 927.04,
+        "order_pct": 15.19,
+        "rev_pct": 15.34
+      },
+      {
+        "OrderStatus": "Pending",
+        "orders": 4103,
+        "revenue": 3737556.98,
+        "avg_order": 910.93,
+        "order_pct": 4.1,
+        "rev_pct": 4.07
+      },
+      {
+        "OrderStatus": "Returned",
+        "orders": 3049,
+        "revenue": 2780662.46,
+        "avg_order": 911.99,
+        "order_pct": 3.05,
+        "rev_pct": 3.03
+      },
+      {
+        "OrderStatus": "Cancelled",
+        "orders": 3028,
+        "revenue": 2851122.39,
+        "avg_order": 941.59,
+        "order_pct": 3.03,
+        "rev_pct": 3.1
+      }
+    ],
+    "status_by_year_pct": [
+      {
+        "Year": 2020,
+        "Cancelled": 2.95,
+        "Delivered": 74.95,
+        "Pending": 4.04,
+        "Returned": 3.21,
+        "Shipped": 14.85
+      },
+      {
+        "Year": 2021,
+        "Cancelled": 3.02,
+        "Delivered": 74.49,
+        "Pending": 4.05,
+        "Returned": 3.17,
+        "Shipped": 15.27
+      },
+      {
+        "Year": 2022,
+        "Cancelled": 3.2,
+        "Delivered": 74.59,
+        "Pending": 4.18,
+        "Returned": 2.9,
+        "Shipped": 15.13
+      },
+      {
+        "Year": 2023,
+        "Cancelled": 2.88,
+        "Delivered": 74.42,
+        "Pending": 4.16,
+        "Returned": 2.95,
+        "Shipped": 15.6
+      },
+      {
+        "Year": 2024,
+        "Cancelled": 3.09,
+        "Delivered": 74.69,
+        "Pending": 4.09,
+        "Returned": 3.01,
+        "Shipped": 15.12
+      }
+    ],
+    "chi2_year_vs_status": {
+      "chi2": 14.191,
+      "p_value": 0.5845
+    }
+  },
+  "q4": {
+    "categories": [
+      {
+        "Category": "Electronics",
+        "orders": 16853,
+        "revenue": 15584217.18,
+        "avg_order": 924.71,
+        "rev_pct": 16.97
+      },
+      {
+        "Category": "Sports & Outdoors",
+        "orders": 16804,
+        "revenue": 15345571.88,
+        "avg_order": 913.21,
+        "rev_pct": 16.71
+      },
+      {
+        "Category": "Books",
+        "orders": 16752,
+        "revenue": 15261837.01,
+        "avg_order": 911.05,
+        "rev_pct": 16.62
+      },
+      {
+        "Category": "Clothing",
+        "orders": 16439,
+        "revenue": 15253397.5,
+        "avg_order": 927.88,
+        "rev_pct": 16.61
+      },
+      {
+        "Category": "Toys & Games",
+        "orders": 16542,
+        "revenue": 15216684.99,
+        "avg_order": 919.88,
+        "rev_pct": 16.57
+      },
+      {
+        "Category": "Home & Kitchen",
+        "orders": 16610,
+        "revenue": 15163939.36,
+        "avg_order": 912.94,
+        "rev_pct": 16.51
+      }
+    ],
+    "top10_products": [
+      {
+        "ProductID": "P00047",
+        "ProductName": "Memory Card 128GB",
+        "orders": 2039,
+        "revenue": 1935138.4,
+        "avg_order": 949.06,
+        "rev_pct": 2.11
+      },
+      {
+        "ProductID": "P00019",
+        "ProductName": "LED Desk Lamp",
+        "orders": 2098,
+        "revenue": 1921948.41,
+        "avg_order": 916.09,
+        "rev_pct": 2.09
+      },
+      {
+        "ProductID": "P00007",
+        "ProductName": "Mechanical Keyboard",
+        "orders": 2034,
+        "revenue": 1906963.54,
+        "avg_order": 937.54,
+        "rev_pct": 2.08
+      },
+      {
+        "ProductID": "P00017",
+        "ProductName": "Electric Kettle",
+        "orders": 2054,
+        "revenue": 1905751.79,
+        "avg_order": 927.82,
+        "rev_pct": 2.08
+      },
+      {
+        "ProductID": "P00010",
+        "ProductName": "Smartwatch",
+        "orders": 1989,
+        "revenue": 1901275.59,
+        "avg_order": 955.9,
+        "rev_pct": 2.07
+      },
+      {
+        "ProductID": "P00030",
+        "ProductName": "Dress Shirt",
+        "orders": 2007,
+        "revenue": 1896765.36,
+        "avg_order": 945.07,
+        "rev_pct": 2.07
+      },
+      {
+        "ProductID": "P00022",
+        "ProductName": "Water Bottle",
+        "orders": 2088,
+        "revenue": 1895467.95,
+        "avg_order": 907.79,
+        "rev_pct": 2.06
+      },
+      {
+        "ProductID": "P00006",
+        "ProductName": "Gaming Mouse",
+        "orders": 2010,
+        "revenue": 1895103.98,
+        "avg_order": 942.84,
+        "rev_pct": 2.06
+      },
+      {
+        "ProductID": "P00031",
+        "ProductName": "Kids Toy Car",
+        "orders": 2004,
+        "revenue": 1891082.43,
+        "avg_order": 943.65,
+        "rev_pct": 2.06
+      },
+      {
+        "ProductID": "P00028",
+        "ProductName": "Jeans",
+        "orders": 1969,
+        "revenue": 1882591.82,
+        "avg_order": 956.12,
+        "rev_pct": 2.05
+      }
+    ],
+    "brands": [
+      {
+        "Brand": "CoreTech",
+        "orders": 10127,
+        "revenue": 9343720.59,
+        "rev_pct": 10.18
+      },
+      {
+        "Brand": "KiddoFun",
+        "orders": 10077,
+        "revenue": 9324749.55,
+        "rev_pct": 10.15
+      },
+      {
+        "Brand": "ReadMore",
+        "orders": 10204,
+        "revenue": 9278406.63,
+        "rev_pct": 10.1
+      },
+      {
+        "Brand": "UrbanStyle",
+        "orders": 9854,
+        "revenue": 9249027.45,
+        "rev_pct": 10.07
+      },
+      {
+        "Brand": "Zenith",
+        "orders": 9990,
+        "revenue": 9239960.39,
+        "rev_pct": 10.06
+      },
+      {
+        "Brand": "Apex",
+        "orders": 9937,
+        "revenue": 9147604.72,
+        "rev_pct": 9.96
+      },
+      {
+        "Brand": "NexPro",
+        "orders": 9962,
+        "revenue": 9078824.97,
+        "rev_pct": 9.89
+      },
+      {
+        "Brand": "FitLife",
+        "orders": 10147,
+        "revenue": 9061444.68,
+        "rev_pct": 9.87
+      },
+      {
+        "Brand": "BrightLux",
+        "orders": 9907,
+        "revenue": 9056816.11,
+        "rev_pct": 9.86
+      },
+      {
+        "Brand": "HomeEase",
+        "orders": 9795,
+        "revenue": 9045092.83,
+        "rev_pct": 9.85
+      }
+    ],
+    "category_gap_top_vs_bottom_usd": 420277.82,
+    "category_gap_pct": 2.77
+  },
+  "q5": {
+    "countries": [
+      {
+        "Country": "United States",
+        "orders": 70058,
+        "revenue": 64310048.5,
+        "avg_order": 917.95,
+        "rev_pct": 70.03,
+        "order_pct": 70.06
+      },
+      {
+        "Country": "India",
+        "orders": 15051,
+        "revenue": 13875839.12,
+        "avg_order": 921.92,
+        "rev_pct": 15.11,
+        "order_pct": 15.05
+      },
+      {
+        "Country": "Canada",
+        "orders": 5818,
+        "revenue": 5323757.0,
+        "avg_order": 915.05,
+        "rev_pct": 5.8,
+        "order_pct": 5.82
+      },
+      {
+        "Country": "United Kingdom",
+        "orders": 4943,
+        "revenue": 4526896.86,
+        "avg_order": 915.82,
+        "rev_pct": 4.93,
+        "order_pct": 4.94
+      },
+      {
+        "Country": "Australia",
+        "orders": 4130,
+        "revenue": 3789106.44,
+        "avg_order": 917.46,
+        "rev_pct": 4.13,
+        "order_pct": 4.13
+      }
+    ],
+    "us_vs_rest_ratio": 2.34
+  },
+  "q6": {
+    "overall_cancel_pct": 3.03,
+    "overall_return_pct": 3.05,
+    "overall_combined_pct": 6.08,
+    "by_category": [
+      {
+        "Category": "Home & Kitchen",
+        "orders": 16610,
+        "cancelled": 508,
+        "returned": 534,
+        "lost_rev": 984133.38,
+        "cancel_pct": 3.06,
+        "return_pct": 3.21,
+        "combined_pct": 6.27
+      },
+      {
+        "Category": "Books",
+        "orders": 16752,
+        "cancelled": 500,
+        "returned": 523,
+        "lost_rev": 931528.19,
+        "cancel_pct": 2.98,
+        "return_pct": 3.12,
+        "combined_pct": 6.11
+      },
+      {
+        "Category": "Toys & Games",
+        "orders": 16542,
+        "cancelled": 512,
+        "returned": 495,
+        "lost_rev": 963364.8,
+        "cancel_pct": 3.1,
+        "return_pct": 2.99,
+        "combined_pct": 6.09
+      },
+      {
+        "Category": "Electronics",
+        "orders": 16853,
+        "cancelled": 544,
+        "returned": 475,
+        "lost_rev": 920603.8,
+        "cancel_pct": 3.23,
+        "return_pct": 2.82,
+        "combined_pct": 6.05
+      },
+      {
+        "Category": "Sports & Outdoors",
+        "orders": 16804,
+        "cancelled": 497,
+        "returned": 518,
+        "lost_rev": 911447.1,
+        "cancel_pct": 2.96,
+        "return_pct": 3.08,
+        "combined_pct": 6.04
+      },
+      {
+        "Category": "Clothing",
+        "orders": 16439,
+        "cancelled": 467,
+        "returned": 504,
+        "lost_rev": 920707.58,
+        "cancel_pct": 2.84,
+        "return_pct": 3.07,
+        "combined_pct": 5.91
+      }
+    ],
+    "chi2_test": {
+      "chi2": 2.054,
+      "p_value": 0.8417
+    }
+  },
+  "q7": {
+    "by_country": [
+      {
+        "Country": "Canada",
+        "orders": 5818,
+        "mean": 7.457,
+        "median": 7.38,
+        "std": 4.336,
+        "q25": 3.74,
+        "q75": 11.21,
+        "total": 43382.24
+      },
+      {
+        "Country": "Australia",
+        "orders": 4130,
+        "mean": 7.446,
+        "median": 7.34,
+        "std": 4.318,
+        "q25": 3.77,
+        "q75": 11.18,
+        "total": 30752.47
+      },
+      {
+        "Country": "United States",
+        "orders": 70058,
+        "mean": 7.409,
+        "median": 7.31,
+        "std": 4.32,
+        "q25": 3.68,
+        "q75": 11.14,
+        "total": 519081.94
+      },
+      {
+        "Country": "India",
+        "orders": 15051,
+        "mean": 7.389,
+        "median": 7.28,
+        "std": 4.346,
+        "q25": 3.63,
+        "q75": 11.2,
+        "total": 111216.1
+      },
+      {
+        "Country": "United Kingdom",
+        "orders": 4943,
+        "mean": 7.33,
+        "median": 7.14,
+        "std": 4.305,
+        "q25": 3.71,
+        "q75": 10.97,
+        "total": 36233.26
+      }
+    ],
+    "anova_country_ship": {
+      "f_stat": 0.733,
+      "p_value": 0.5691
+    },
+    "corr_total_amount_vs_ship": {
+      "pearson_r": 0.03935,
+      "p_value": 0.0
+    },
+    "corr_subtotal_vs_ship": {
+      "pearson_r": 0.03359,
+      "p_value": 0.0
+    },
+    "spearman_total_vs_ship": {
+      "rho": 0.0539,
+      "p_value": 0.0
+    },
+    "regression_line": {
+      "slope": 0.000235,
+      "intercept": 7.191
+    },
+    "by_order_value_bucket": [
+      {
+        "OrderBucket": "<$250",
+        "orders": 17941,
+        "mean_ship": 6.77,
+        "median_ship": 6.37,
+        "mean_ship_pct": 6.86,
+        "median_ship_pct": 5.34
+      },
+      {
+        "OrderBucket": "$250–500",
+        "orders": 19357,
+        "mean_ship": 7.53,
+        "median_ship": 7.48,
+        "mean_ship_pct": 2.09,
+        "median_ship_pct": 2.01
+      },
+      {
+        "OrderBucket": "$500–1K",
+        "orders": 25058,
+        "mean_ship": 7.55,
+        "median_ship": 7.53,
+        "mean_ship_pct": 1.09,
+        "median_ship_pct": 1.04
+      },
+      {
+        "OrderBucket": "$1K–1.5K",
+        "orders": 16593,
+        "mean_ship": 7.51,
+        "median_ship": 7.53,
+        "mean_ship_pct": 0.62,
+        "median_ship_pct": 0.61
+      },
+      {
+        "OrderBucket": ">$1.5K",
+        "orders": 21051,
+        "mean_ship": 7.57,
+        "median_ship": 7.59,
+        "mean_ship_pct": 0.38,
+        "median_ship_pct": 0.37
+      }
+    ],
+    "free_shipping_orders": 20
+  },
+  "q8": {
+    "by_payment": [
+      {
+        "PaymentMethod": "Amazon Pay",
+        "orders": 15017,
+        "cancelled": 461,
+        "returned": 472,
+        "lost_rev": 833737.23,
+        "order_pct": 15.02,
+        "cancel_pct": 3.07,
+        "return_pct": 3.14,
+        "combined_pct": 6.21
+      },
+      {
+        "PaymentMethod": "Credit Card",
+        "orders": 35038,
+        "cancelled": 1083,
+        "returned": 1075,
+        "lost_rev": 1987819.42,
+        "order_pct": 35.04,
+        "cancel_pct": 3.09,
+        "return_pct": 3.07,
+        "combined_pct": 6.16
+      },
+      {
+        "PaymentMethod": "Net Banking",
+        "orders": 9927,
+        "cancelled": 291,
+        "returned": 313,
+        "lost_rev": 578872.31,
+        "order_pct": 9.93,
+        "cancel_pct": 2.93,
+        "return_pct": 3.15,
+        "combined_pct": 6.08
+      },
+      {
+        "PaymentMethod": "Cash on Delivery",
+        "orders": 4928,
+        "cancelled": 156,
+        "returned": 143,
+        "lost_rev": 279315.19,
+        "order_pct": 4.93,
+        "cancel_pct": 3.17,
+        "return_pct": 2.9,
+        "combined_pct": 6.07
+      },
+      {
+        "PaymentMethod": "Debit Card",
+        "orders": 20024,
+        "cancelled": 593,
+        "returned": 609,
+        "lost_rev": 1116676.44,
+        "order_pct": 20.02,
+        "cancel_pct": 2.96,
+        "return_pct": 3.04,
+        "combined_pct": 6.0
+      },
+      {
+        "PaymentMethod": "UPI",
+        "orders": 15066,
+        "cancelled": 444,
+        "returned": 437,
+        "lost_rev": 835364.26,
+        "order_pct": 15.07,
+        "cancel_pct": 2.95,
+        "return_pct": 2.9,
+        "combined_pct": 5.85
+      }
+    ],
+    "chi2_test": {
+      "chi2": 2.483,
+      "p_value": 0.779
+    }
+  },
+  "q9": {
+    "min_orders_threshold": 1000,
+    "eligible_products": 50,
+    "total_products": 50,
+    "product_orders_min": 1910,
+    "product_orders_max": 2098,
+    "overall_return_pct": 3.05,
+    "top5_returned": [
+      {
+        "ProductID": "P00024",
+        "ProductName": "Yoga Mat",
+        "orders": 2041,
+        "returned": 81,
+        "cancelled": 66,
+        "return_rev": 72690.48,
+        "total_rev": 1847898.09,
+        "return_pct": 3.97,
+        "cancel_pct": 3.23
+      },
+      {
+        "ProductID": "P00012",
+        "ProductName": "Noise Cancelling Headphones",
+        "orders": 2031,
+        "returned": 77,
+        "cancelled": 58,
+        "return_rev": 65088.96,
+        "total_rev": 1881108.57,
+        "return_pct": 3.79,
+        "cancel_pct": 2.86
+      },
+      {
+        "ProductID": "P00030",
+        "ProductName": "Dress Shirt",
+        "orders": 2007,
+        "returned": 72,
+        "cancelled": 75,
+        "return_rev": 76636.79,
+        "total_rev": 1896765.36,
+        "return_pct": 3.59,
+        "cancel_pct": 3.74
+      },
+      {
+        "ProductID": "P00023",
+        "ProductName": "Cookware Set",
+        "orders": 2058,
+        "returned": 73,
+        "cancelled": 63,
+        "return_rev": 62936.71,
+        "total_rev": 1877038.73,
+        "return_pct": 3.55,
+        "cancel_pct": 3.06
+      },
+      {
+        "ProductID": "P00041",
+        "ProductName": "Webcam Full HD",
+        "orders": 2013,
+        "returned": 71,
+        "cancelled": 47,
+        "return_rev": 56648.38,
+        "total_rev": 1799332.82,
+        "return_pct": 3.53,
+        "cancel_pct": 2.33
+      }
+    ],
+    "top10_returned": [
+      {
+        "ProductID": "P00024",
+        "ProductName": "Yoga Mat",
+        "orders": 2041,
+        "returned": 81,
+        "cancelled": 66,
+        "return_rev": 72690.48,
+        "total_rev": 1847898.09,
+        "return_pct": 3.97,
+        "cancel_pct": 3.23
+      },
+      {
+        "ProductID": "P00012",
+        "ProductName": "Noise Cancelling Headphones",
+        "orders": 2031,
+        "returned": 77,
+        "cancelled": 58,
+        "return_rev": 65088.96,
+        "total_rev": 1881108.57,
+        "return_pct": 3.79,
+        "cancel_pct": 2.86
+      },
+      {
+        "ProductID": "P00030",
+        "ProductName": "Dress Shirt",
+        "orders": 2007,
+        "returned": 72,
+        "cancelled": 75,
+        "return_rev": 76636.79,
+        "total_rev": 1896765.36,
+        "return_pct": 3.59,
+        "cancel_pct": 3.74
+      },
+      {
+        "ProductID": "P00023",
+        "ProductName": "Cookware Set",
+        "orders": 2058,
+        "returned": 73,
+        "cancelled": 63,
+        "return_rev": 62936.71,
+        "total_rev": 1877038.73,
+        "return_pct": 3.55,
+        "cancel_pct": 3.06
+      },
+      {
+        "ProductID": "P00041",
+        "ProductName": "Webcam Full HD",
+        "orders": 2013,
+        "returned": 71,
+        "cancelled": 47,
+        "return_rev": 56648.38,
+        "total_rev": 1799332.82,
+        "return_pct": 3.53,
+        "cancel_pct": 2.33
+      },
+      {
+        "ProductID": "P00036",
+        "ProductName": "Smart Light Bulb",
+        "orders": 2036,
+        "returned": 70,
+        "cancelled": 61,
+        "return_rev": 70910.66,
+        "total_rev": 1868940.58,
+        "return_pct": 3.44,
+        "cancel_pct": 3.0
+      },
+      {
+        "ProductID": "P00010",
+        "ProductName": "Smartwatch",
+        "orders": 1989,
+        "returned": 68,
+        "cancelled": 53,
+        "return_rev": 73208.62,
+        "total_rev": 1901275.59,
+        "return_pct": 3.42,
+        "cancel_pct": 2.66
+      },
+      {
+        "ProductID": "P00019",
+        "ProductName": "LED Desk Lamp",
+        "orders": 2098,
+        "returned": 71,
+        "cancelled": 58,
+        "return_rev": 64805.57,
+        "total_rev": 1921948.41,
+        "return_pct": 3.38,
+        "cancel_pct": 2.76
+      },
+      {
+        "ProductID": "P00043",
+        "ProductName": "HDMI Cable 2m",
+        "orders": 2002,
+        "returned": 67,
+        "cancelled": 68,
+        "return_rev": 67966.09,
+        "total_rev": 1847856.25,
+        "return_pct": 3.35,
+        "cancel_pct": 3.4
+      },
+      {
+        "ProductID": "P00006",
+        "ProductName": "Gaming Mouse",
+        "orders": 2010,
+        "returned": 67,
+        "cancelled": 76,
+        "return_rev": 71402.16,
+        "total_rev": 1895103.98,
+        "return_pct": 3.33,
+        "cancel_pct": 3.78
+      }
+    ],
+    "bottom5_returned": [
+      {
+        "ProductID": "P00002",
+        "ProductName": "Bluetooth Speaker",
+        "orders": 1913,
+        "returned": 42,
+        "cancelled": 54,
+        "return_rev": 39390.99,
+        "total_rev": 1803356.76,
+        "return_pct": 2.2,
+        "cancel_pct": 2.82
+      },
+      {
+        "ProductID": "P00042",
+        "ProductName": "Projector Mini",
+        "orders": 1976,
+        "returned": 46,
+        "cancelled": 64,
+        "return_rev": 43270.74,
+        "total_rev": 1805867.58,
+        "return_pct": 2.33,
+        "cancel_pct": 3.24
+      },
+      {
+        "ProductID": "P00037",
+        "ProductName": "Router",
+        "orders": 2054,
+        "returned": 50,
+        "cancelled": 57,
+        "return_rev": 52017.3,
+        "total_rev": 1850756.2,
+        "return_pct": 2.43,
+        "cancel_pct": 2.78
+      },
+      {
+        "ProductID": "P00040",
+        "ProductName": "Microphone",
+        "orders": 2034,
+        "returned": 50,
+        "cancelled": 68,
+        "return_rev": 49209.75,
+        "total_rev": 1871740.68,
+        "return_pct": 2.46,
+        "cancel_pct": 3.34
+      },
+      {
+        "ProductID": "P00034",
+        "ProductName": "Desk Organizer",
+        "orders": 2026,
+        "returned": 51,
+        "cancelled": 67,
+        "return_rev": 48934.7,
+        "total_rev": 1843103.26,
+        "return_pct": 2.52,
+        "cancel_pct": 3.31
+      }
+    ]
+  }
+}
